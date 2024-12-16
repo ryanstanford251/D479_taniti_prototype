@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgb(124, 188, 174);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(124, 188, 174);
+    padding: 1em;
+}
+
+header a:hover {
+    color: gray;
+}
+
+div#logo a img {
+    margin: 0px;
+    width: 200px;
+}
+
+nav ul li a {
+    font-size: 1.155rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1rem;
+}
+
+body {
+    background-color: rgb(207, 247, 238);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0.5em 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 2em;
+}
+
+
+div.list-delimiter {
+    font-size: 1.5em;
+    color: lightgray;
+}
+
+footer {
+    background-color: rgb(124, 188, 174);
+}
+
+footer div {
+    text-align: center;
+}
+
+
+/*Home page*/
+
+div.hero-image img {
+    max-width: 100%;
+    width: 100vw;
+    height: 60vh;
+    display: block;
+}
+
+cite {
+    display: block;
+    margin: 10px;
+}
+
+
+
+/*Things To Do, Getting Here, Getting Around, Places To Stay, Dining*/
+
+div.content {
+    height: 10em;
+    width: 18em;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: rgb(58, 120, 104);
+}
+
+div.content:hover {
+    font-weight: bold;
+    background-color: rgb(78, 151, 133);
+}
+
+div.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+}
+
+div.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+/*Things To Do, Places To Stay, Dining*/
+
+div.filter-selectors span:hover {
+    color: gray;
+}
+
+div.activity-filter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+div.filter-selectors {
+    font-size: 1.3rem;
+}
+
+/*Getting Here*/
+div.travel {
+    height: 15em;
+    width: 23em;
+}
+
+
+
+/*FAQ page*/
+
+ul.faqs {
+    line-height: 2rem;
+    max-width: 80%;
+}
